@@ -83,7 +83,7 @@ An automated batch data engineering and analytics pipeline built on **Google Clo
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/](https://github.com/)<swarupchakraborty467E>/ecommerce-gcp-airflow-pipeline.git
+   git clone https://github.com/swarupchakraborty467E/ecommerce-gcp-airflow-pipeline.git
    cd ecommerce-gcp-airflow-pipeline
    ```
 2. **Configure keyless GCP credentials:**
