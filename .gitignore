@@ -1,0 +1,28 @@
+# GCP Credentials & Secrets (Never commit ADC or service account keys)
+config/*
+!config/.gitkeep
+*.json
+.env
+*.env
+
+# Airflow Logs, Runtime PIDs & Local Metadata DB
+logs/
+*.pid
+*.log
+airflow.db
+airflow-webserver.pid
+webserver_config.py
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
